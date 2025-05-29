@@ -17,3 +17,10 @@ app.listen(port,() => {
 app.get('/books', (req,res) => {
     res.json(books);
 })
+
+app.post('/books', (req,res) => {
+    const newBook = req.body;
+    newBook.id = books.length + 1;
+    books.push(newBook);
+    res.status(201).json(newBook);
+})
