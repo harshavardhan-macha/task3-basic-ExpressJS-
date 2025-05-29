@@ -35,3 +35,9 @@ app.put('/books/:id', (req, res) => {
     res.status(404).json({ error: 'Book not found' });
   }
 });
+
+app.delete('/books/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  books = books.filter(book => book.id !== id);
+  res.json({ message: 'Book deleted' });
+});
