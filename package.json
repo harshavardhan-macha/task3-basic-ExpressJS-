@@ -1,0 +1,26 @@
+{
+  "name": "task3-basic-expressjs-",
+  "version": "1.0.0",
+  "description": "this is for basic express js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshavardhan-macha/task3-basic-ExpressJS-.git"
+  },
+  "keywords": [
+    "basics",
+    "api"
+  ],
+  "author": "harshavardhan macha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshavardhan-macha/task3-basic-ExpressJS-/issues"
+  },
+  "homepage": "https://github.com/harshavardhan-macha/task3-basic-ExpressJS-#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
