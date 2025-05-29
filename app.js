@@ -13,3 +13,7 @@ app.use(express.json());
 app.listen(port,() => {
     console.log ("web development intership");
 })
+
+app.get('/books', (req,res) => {
+    res.json(books);
+})
