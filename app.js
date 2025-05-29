@@ -24,3 +24,14 @@ app.post('/books', (req,res) => {
     books.push(newBook);
     res.status(201).json(newBook);
 })
+
+app.put('/books/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const index = books.findIndex(book => book.id === id);
+  if (index !== -1) {
+    books[index] = { id, ...req.body };
+    res.json(books[index]);
+  } else {
+    res.status(404).json({ error: 'Book not found' });
+  }
+});
