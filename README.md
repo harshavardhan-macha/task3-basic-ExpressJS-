@@ -1,3 +1,13 @@
 # This repo has the basics of the express JS initialization and creating the rest apis
- - as this is the task 3 of the WEB Development intership
- - the task is to create a rest api using express js
+ # 📚 Book Management API
+
+A simple RESTful API built with **Node.js** and **Express.js** for managing a list of books. It supports operations such as viewing all books, adding a new book, updating a book by ID, and deleting a book by ID.
+
+## 🚀 Features
+
+- 📖 View all books
+- ➕ Add a new book
+- ✏️ Update an existing book by ID
+- ❌ Delete a book by ID
+- 🧪 Uses in-memory storage (no database)
+
